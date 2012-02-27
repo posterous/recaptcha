@@ -1,10 +1,9 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "recaptcha/version"
 
 Gem::Specification.new do |s|
   s.name        = "recaptcha"
-  s.version     = Recaptcha::VERSION
+  s.version     = "0.3.5"
   s.authors     = ["Jason L Perry"]
   s.email       = ["jasper@ambethia.com"]
   s.homepage    = "http://github.com/ambethia/recaptcha"
