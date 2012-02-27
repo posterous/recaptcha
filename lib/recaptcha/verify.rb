@@ -4,6 +4,7 @@ module Recaptcha
     # Your private API can be specified in the +options+ hash or preferably
     # using the Configuration.
     def verify_recaptcha(options = {})
+      Rails.logger.log_for_captcha_reg "[captcha] starting verify"
       if !options.is_a? Hash
         options = {:model => options}
       end
